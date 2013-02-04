@@ -23,8 +23,13 @@ p {
   margin-bottom:10px;
 }
 
-.wrapper.no-padding { padding:0px; }
-.wrapper.no-padding img:last-child { margin-bottom:-2px; }
+.work { padding:20px 0 0 0; }
+
+.work p, .work h6 {
+  padding:0 20px 0 20px;
+}
+
+.work img { margin-bottom:-2px; }
 
 .avatar-frame, .avatar-frame img {
   width:50px;
