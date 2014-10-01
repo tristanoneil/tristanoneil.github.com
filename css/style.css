@@ -39,3 +39,27 @@ p {
   float: left;
   margin: -6px 15px 0 0;
 }
+
+.resume h4.category {
+  border-bottom: solid 1px #e1e1e1;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.resume h5 {
+  margin: 0;
+}
+
+.resume .meta {
+  margin: 5px 0 5px 0;
+  font-size: 90%;
+}
+
+.resume .item p:last-of-type {
+  margin-bottom: 15px;
+}
+
+.resume ul {
+  list-style-type: square;
+  margin-left: 15px;
+}
