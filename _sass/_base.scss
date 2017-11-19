@@ -38,7 +38,6 @@ a, a:visited {
   text-align: left;
 
   h1 {
-    border-bottom: solid 1px white;
     display: inline-block;
     font-size: rem-calc(60);
     font-weight: 900;
@@ -52,12 +51,6 @@ a, a:visited {
     @media #{$medium-only} {
       font-size: rem-calc(35);
     }
-  }
-
-  h3 {
-    font-size: rem-calc(18);
-    font-weight: 300;
-    margin: 0;
   }
 }
 
