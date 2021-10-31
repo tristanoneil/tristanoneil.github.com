@@ -33,6 +33,12 @@ a.button {
   width: 60%;
 }
 
+@media only screen and (max-width: 600px) {
+  a.button {
+    width: 100%;
+  }
+}
+
 a.button:hover {
   transform: scale(1.02);
 }
